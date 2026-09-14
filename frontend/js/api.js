@@ -1,5 +1,5 @@
 // Change this URL when your Express backend is deployed.
-const API_BASE_URL = "http://localhost:5000/api";
+const API_BASE_URL = "https://job-tracker-07cl.onrender.com/api";
 
 async function apiRequest(endpoint, options = {}) {
   const token = localStorage.getItem("token");

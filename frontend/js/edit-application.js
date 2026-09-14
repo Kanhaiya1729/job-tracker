@@ -2,7 +2,7 @@ const params = new URLSearchParams(window.location.search);
 const applicationId = params.get("id");
 const editForm = document.getElementById("editApplicationForm");
 
-const API_URL = "http://localhost:3000/api";
+const API_URL = "https://job-tracker-07cl.onrender.com/api";
 
 function getAuthConfig() {
   return {

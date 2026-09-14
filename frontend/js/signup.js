@@ -17,7 +17,7 @@ signupForm.addEventListener("submit", async (event) => {
   }
 
   try {
-    await axios.post("http://localhost:3000/api/auth/signup", {
+    await axios.post("https://job-tracker-07cl.onrender.com/api/auth/signup", {
       name: document.getElementById("name").value.trim(),
       email: document.getElementById("email").value.trim(),
       password: password

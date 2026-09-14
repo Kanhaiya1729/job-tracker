@@ -1,6 +1,6 @@
 let applications = [];
 
-const API_URL = "http://localhost:3000/api";
+const API_URL = "https://job-tracker-07cl.onrender.com/api";
 
 function getAuthConfig() {
   return {

@@ -13,7 +13,7 @@ applicationForm.addEventListener("submit", async (event) => {
 
   try {
     await axios.post(
-      "http://localhost:3000/api/applications",
+      "https://job-tracker-07cl.onrender.com/api/applications",
       getFormData(),
       {
         headers: {

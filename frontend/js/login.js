@@ -10,7 +10,7 @@ loginForm.addEventListener("submit", async (event) => {
 
   try {
     const response = await axios.post(
-      "http://localhost:3000/api/auth/login",
+      "https://job-tracker-07cl.onrender.com/api/auth/login",
       {
         email: document.getElementById("email").value.trim(),
         password: document.getElementById("password").value
