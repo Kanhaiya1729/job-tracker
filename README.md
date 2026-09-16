@@ -41,27 +41,5 @@ A full-stack job application tracking system that helps users manage and track t
 * VS Code
 * Postman
 
-## 📁 Project Structure
 
-```text
-JobTrack/
-│
-├── backend/
-│   ├── models/
-│   ├── routes/
-│   ├── middleware/
-│   ├── controllers/
-│   ├── .env
-│   └── server.js
-│
-├── frontend/
-│   ├── css/
-│   │   └── style.css
-│   │
-│   ├── js/
-│   │   ├── signup.js
-│   │   ├── login.js
-│   │   ├── dashboard.js
-│   │   ├── add-applica
-```
 
