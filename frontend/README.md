@@ -1,53 +1,16 @@
-# JobTrack Frontend
+# React + Vite
 
-Frontend for a Job Application Tracking System built with:
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-- HTML5
-- CSS3
-- Bootstrap 5
-- Vanilla JavaScript
-- Fetch API
+Currently, two official plugins are available:
 
-## Pages
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-- `index.html` - Landing page
-- `signup.html` - Registration
-- `login.html` - Login
-- `dashboard.html` - Application dashboard
-- `add-application.html` - Add application
-- `edit-application.html` - Edit application
+## React Compiler
 
-## JavaScript
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-- `api.js` - API helper and common alerts
-- `auth.js` - Authentication helpers
-- `login.js` - Login logic
-- `signup.js` - Signup logic
-- `dashboard.js` - Dashboard, search, filter, delete
-- `add-application.js` - Create application
-- `edit-application.js` - Update application
+## Expanding the ESLint configuration
 
-## Backend connection
-
-By default the frontend expects the Express server at:
-
-`http://localhost:5000/api`
-
-Change `API_BASE_URL` in `js/api.js` if your backend uses another URL.
-
-## Expected API
-
-POST `/api/auth/signup`
-POST `/api/auth/login`
-GET `/api/auth/me`
-
-POST `/api/applications`
-GET `/api/applications`
-GET `/api/applications/:id`
-PUT `/api/applications/:id`
-DELETE `/api/applications/:id`
-GET `/api/applications/stats`
-
-## Run
-
-Use VS Code Live Server or another static HTTP server. Start the Express backend separately on port 5000.
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
